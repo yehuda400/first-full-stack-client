@@ -169,7 +169,9 @@ const allElectronicsProducts = (data = []) => {
 
 const handleProducts = async () => {
     try {
-        const response = await fetch("http://localhost:3000/api/products");
+        const response = await fetch(
+            "https://my-first-server-iz6q.onrender.com/"
+        );
         const data = await response.json();
 
         displayAllProducts(data);
