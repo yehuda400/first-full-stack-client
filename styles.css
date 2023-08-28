@@ -1,0 +1,174 @@
+.d-none{
+    display: none;
+}
+.d-block{
+    display: block;
+}
+
+* {
+    margin: 0px;
+    padding: 0;
+}
+html {
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    background-color: #f9f5eb;
+    width: 100%;
+    height: 100%;
+}
+span {
+    font-size: 22px;
+    margin: 0;
+}
+
+#main-header-icons {
+    right: 0;
+    display: flex;
+    width: 120px;
+    justify-content: space-evenly;
+    height: 50px;
+    align-items: center;
+}
+#main-header div i {
+    margin-right: 7px;
+}
+#main-header div i:hover {
+    cursor: pointer;
+    font-size: 28px;
+    /* color: #000000; */
+}
+#main-header {
+    width: 100%;
+    position: sticky;
+    height: 8vh;
+    /* padding: 10px; */
+    justify-content: space-between;
+    background-color: #ffdecb;
+    color: #4d4d4d;
+    display: flex;
+    align-items: center;
+    top: 0px;
+}
+
+#pages{
+    height: 100%;
+    margin: 10px;
+}
+
+nav {
+    background-color: #ffbf9b;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    position: unset;
+}
+
+#search-bar input {
+    height: 27px;
+}
+#search-bar {
+    margin: 7px;
+    padding: 5px;
+}
+#homePage {
+    flex-grow: 1;
+}
+#filters {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-bottom: 0px;
+}
+
+#all-products,
+#men-filter,
+#women-filter,
+#jewelry-filter,
+#electronics-filter {
+    background-color: antiquewhite;
+    margin: 3px;
+    border: 1px solid #000000;
+    padding: 5px;
+}
+
+#products {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 74px;}
+.product-container {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background-repeat: repeat;
+    box-shadow: 10px 10px 13px grey;
+    background-color: #ffdecb;
+    padding: 5px;
+    width: 200px;
+    margin: 5px;
+}
+
+.image-container {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    display: flex;
+    height: 350px;
+    background-color: white;
+    align-items: center;
+}
+
+.images {
+    border-radius: 25px;
+    background-color: white;
+    width: 200px;
+    height: fit-content;
+}
+
+footer {
+    height: 50px;
+    background-color: #000000;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+/* css for page 2 */
+#p2Container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+#product-page{
+    flex-grow: 1;
+    height: 100%;
+}
+#p2header{
+    display: flex; 
+    justify-content: center;
+
+}
+#p2header h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#p2-dts-Container{
+    margin: 10px;
+    display: flex;
+    border: black solid 1px;
+    width: 75%;
+    height: 65%;
+}
+#p2Pic{
+    height: 100%;
+    /* width: fit-content; */
+    
+}
+#p2TextContainer{
+    display: flex;
+    flex-direction: column;
+}
+#p3Input{
+    width: 80%;
+}
