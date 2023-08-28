@@ -170,7 +170,7 @@ const allElectronicsProducts = (data = []) => {
 const handleProducts = async () => {
     try {
         const response = await fetch(
-            "https://my-first-server-iz6q.onrender.com/"
+            "https://my-first-server-iz6q.onrender.com"
         );
         const data = await response.json();
 
